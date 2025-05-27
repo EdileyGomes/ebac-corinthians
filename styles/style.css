@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(207, 52, 52);
+    padding: 25px;
+}
