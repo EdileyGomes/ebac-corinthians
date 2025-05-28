@@ -187,7 +187,6 @@ form button:hover{
 
 #input:hover {
     transform: scale(1.02);
-    margin: 12px;
     outline-color: red;
 }
 
@@ -203,4 +202,13 @@ footer {
     color: white;
     text-align: center;
     align-items: center;
+}
+
+form input::placeholder, textarea::placeholder{
+    font-family: "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.301);
+}
+
+#contato {
+    text-align: center;
 }
