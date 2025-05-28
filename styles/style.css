@@ -110,7 +110,7 @@ textarea {
     height: 180px;
 }
 
-forms input, textarea, button {
+form input, textarea, button {
     display: block;
     width: 400px;
     margin: 10px;
